@@ -7,7 +7,7 @@
       text-align: center;
       border-radius: 5px;
       &:focus {
-        background-color: $second;
+        background-color: $third;
         &::placeholder {
           color: $neutral;
         }
@@ -17,8 +17,9 @@
     textarea {
       text-align: center;
       border-radius: 5px;
+      resize: none;
       &:focus {
-        background-color: $second;
+        background-color: $third;
         &::placeholder {
           color: $neutral;
               }

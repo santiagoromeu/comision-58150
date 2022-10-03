@@ -5,6 +5,7 @@
     align-items: center;
     justify-content: center;
     .color-me {
+        text-decoration: none;
         color: $second;
         &:hover{
             color: $third;

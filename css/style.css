@@ -39,20 +39,34 @@
   justify-content: space-evenly;
   margin: 10px 10px 10px 10px; }
 
+.rmargin-carr {
+  justify-content: space-evenly;
+  margin-top: 20px;
+  border-radius: 5px; }
+
 /*Estilo para botones*/
 .btn-style {
   width: 100px;
-  border-radius: 5px;
-  background-color: #236a96;
-  border: 0px;
-  font-family: "Mulish", sans-serif; }
+  border-radius: 25px;
+  background-color: #fffff0;
+  border: solid 1px;
+  font-family: "Mulish", sans-serif;
+  color: #236a96; }
   .btn-style:hover {
-    background-color: #302f4e; }
+    background-color: #302f4e;
+    color: #ffffff;
+    border-color: #302f4e; }
+
+/*Posicionamiento para contenido de cards*/
+.carbod {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between; }
 
 /*Estilo para texto de contenido*/
 .cont-stl {
   font-family: "Mulish", sans-serif;
-  color: #302f4e; }
+  color: #236a96; }
 
 /*Estilo para  navbar*/
 .header__navpos {
@@ -60,6 +74,7 @@
   align-items: center;
   justify-content: center; }
   .header__navpos .color-me {
+    text-decoration: none;
     color: #236a96; }
     .header__navpos .color-me:hover {
       color: #302f4e; }
@@ -75,9 +90,20 @@
     color: #236a96; }
 
 /*Div contenedor principal de FAQ*/
-.contfaq {
-  background-color: #ffffff;
+.contfaq1 {
+  background-color: transparent;
   border-radius: 5px; }
+  .contfaq1 .contfaq2 {
+    background-color: #ffffff;
+    border-radius: 5px;
+    padding: 10px;
+    text-align: center; }
+    .contfaq1 .contfaq2 .style-fq {
+      text-decoration: none;
+      color: #236a96;
+      font-weight: bold; }
+      .contfaq1 .contfaq2 .style-fq:hover {
+        color: #302f4e; }
 
 .contact {
   display: flex;
@@ -90,15 +116,16 @@
     text-align: center;
     border-radius: 5px; }
     .contact input:focus {
-      background-color: #236a96;
+      background-color: #302f4e;
       color: #ffffff; }
       .contact input:focus::placeholder {
         color: #ffffff; }
   .contact textarea {
     text-align: center;
-    border-radius: 5px; }
+    border-radius: 5px;
+    resize: none; }
     .contact textarea:focus {
-      background-color: #236a96;
+      background-color: #302f4e;
       color: #ffffff; }
       .contact textarea:focus::placeholder {
         color: #ffffff; }
