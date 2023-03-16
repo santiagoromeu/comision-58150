@@ -17,7 +17,7 @@ alert("El costo total de su estadia sera de U$D"+total);
 }
 
 do{
-    let personas= parseInt(prompt('Ingrese la cantidad de personas que se van a hospedar'));  
+    personas= parseInt(prompt('Ingrese la cantidad de personas que se van a hospedar'));  
 if(personas<=2){
     dias= parseInt(prompt('Ingrese la cantidad de dias'));
     alert("departamento para 1 o 2 personas"); 
